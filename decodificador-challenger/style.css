@@ -7,6 +7,10 @@
   body {
     background-color: rgb(230, 225, 225);
   }
+
+  span {
+    color: rgb(59, 50, 50);
+  }
   
   .container {
     width: 58.75rem;
@@ -64,7 +68,7 @@
     border-radius: 10px;
     cursor: pointer;
     border: none;
-    background-color: rgb(125, 98, 234);
+    background-color: rgb(147, 238, 243);
     font-weight: bold;
     color: black;
     width: 12.5rem;
@@ -74,7 +78,7 @@
   }
   
   button:hover {
-    background-color: rgb(153, 132, 235);
+    background-color: rgb(25, 118, 122);
     color: white;
   }
   .tela-criptografia {
@@ -87,7 +91,7 @@
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
-    background-color: rgb(148, 128, 229);
+    background-color: rgb(143, 232, 237);
   }
   .mensagem-criada {
     font-size: 1.3rem;
@@ -114,7 +118,7 @@
   }
   
   footer {
-    background-color: rgb(210, 202, 241);
+    background-color: rgb(130, 218, 223);
     text-align: center;
     color: black;
     border-top: 2px solid white;
@@ -138,5 +142,5 @@
   }
   
   footer a:hover {
-    color: blueviolet;
+    color: rgb(227, 224, 230);
   }
