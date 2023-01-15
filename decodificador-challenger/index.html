@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Challenger Decodificador</title>
+</head>
+<body>
+    <header>
+        <h1>Challenger Decodificador</h1>
+    </header>
+    <main>
+        <div class="container">
+          <section class="tela-texto">
+            <textarea
+              placeholder="Digite o Texto aqui"
+              oninput="alterarTelaCriptografia()"
+              cols="100"
+              rows="100"
+            ></textarea>
+            <p class="instrucao">Apenas letras sem acento!</p>
+            <div class="botoes">
+              <button onclick="criptografarMensagem()">Criptografar</button>
+              <button onclick="descriptografarMensagem()">Descriptografar</button>
+            </div>
+          </section>
+          <section class="tela-criptografia">
+            <p class="mensagem-criada"></p>
+            <div>
+              <img src="" alt="" srcset="" class="img-criptografia" />
+            </div>
+            <div>
+              <p class="aviso1">Nenhuma mensagem encontrada</p>
+              <p class="aviso2">
+                Digite o texto que você deseja criptografar ou descriptografar
+              </p>
+            </div>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <p>Desenvolvido por Wergiley Oliveira</p>
+        <nav>
+          <ul>
+            <li>
+              <a href="https://github.com/Wergiley" target="_blank">
+                Github<img
+                  src="imagens/github-logo_icon-icons.com_73546.svg"
+                  alt=""
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/wergileyoliveira/"
+                target="_blank"
+                >Linkedin
+                <img
+                  src="imagens/in_linked_linkedin_media_social_icon_124259.svg"
+                  alt=""
+                  srcset=""
+                />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+</body>
+</html>
