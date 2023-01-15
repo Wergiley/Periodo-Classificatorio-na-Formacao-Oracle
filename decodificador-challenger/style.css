@@ -142,6 +142,10 @@ a img {
   vertical-align: bottom;
 }
 
+footer p span:hover {
+    color: #2f17e6;
+}
+
 footer a:hover {
-  color: blueviolet;
+  color: #2f17e6;
 }
